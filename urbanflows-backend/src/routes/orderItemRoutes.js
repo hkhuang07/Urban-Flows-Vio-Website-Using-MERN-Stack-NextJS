@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getOrderItemsByOrderId, getOrderItemById, updateOrderItem, deleteOrderItem } = require('../controllers/orderitemController');
+const { getOrderItemsByOrderId, getOrderItemById, updateOrderItem, deleteOrderItem } = require('../controllers/orderItemController');
 const { protect, isAdmin } = require('../middleware/authMiddleware');
 
 const isManagerOrAdmin = (req, res, next) => {

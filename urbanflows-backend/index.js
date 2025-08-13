@@ -7,7 +7,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = process.env.MONGODB_URI;
+const MONGODB_URI = process.env.MONGODB_URI;-+
 
 // Middleware để xử lý JSON trong body của request
 app.use(express.json());
@@ -19,6 +19,10 @@ app.use('/api/manufacturers', require('./src/routes/manufacturerRoutes'));
 app.use('/api/items', require('./src/routes/itemRoutes'));
 app.use('/api/orders', require('./src/routes/orderRoutes'));
 app.use('/api/orderitems', require('./src/routes/orderitemRoutes'));
+app.use('/api/topics', require('./src/routes/topicRoutes'));
+app.use('/api/articles', require('./src/routes/articleRoutes'));
+app.use('/api/shipperprofiles', require('./src/routes/ShipperProfileRoutes'));
+app.use('/api/ridebookings', require('./src/routes/rideBookingRoutes'));
 
 // Kết nối đến MongoDB
 const connectDB = async () => {
