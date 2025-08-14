@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getRideBookings, getRideBookingById, updateRideBooking, deleteRideBooking } = require('./controllers/rideBookingController');
+const { getRideBookings, getRideBookingById, updateRideBooking, deleteRideBooking } = require('../controllers/rideBookingController');
 const { protect, isAdmin } = require('../middleware/authMiddleware');
 
 const isManagerOrAdmin = (req, res, next) => {
@@ -14,7 +14,7 @@ const isManagerOrAdmin = (req, res, next) => {
 // Public/Shipper routes
 router.get('/', protect, getRideBookings);
 router.get('/:id', protect, getRideBookingById);
-
+// Note: Shippers can view their own bookings, but not others unless they are admin/manager
 // Admin/Manager/Shipper routes
 router.put('/:id', protect, updateRideBooking);
 router.delete('/:id', protect, isAdmin, deleteRideBooking);

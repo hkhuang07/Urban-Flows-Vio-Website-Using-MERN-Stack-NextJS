@@ -2,7 +2,7 @@
 const express = require('express');
 const router = express.Router();
 const { registerAccount, loginAccount, getAccountProfile } = require('../controllers/accountController');
-const { protect } = require('../middleware/authMiddleware');
+//const { protect } = require('../middleware/authMiddleware');
 const { protect, isAdmin } = require('../middleware/authMiddleware');
 
 const { getAllAccounts, updateAccount, deleteAccount } = require('../controllers/accountController');
