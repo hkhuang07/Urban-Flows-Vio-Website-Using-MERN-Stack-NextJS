@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// src/models/Item.js
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 const mongoose = require('mongoose');
 
 const ItemSchema = new mongoose.Schema({

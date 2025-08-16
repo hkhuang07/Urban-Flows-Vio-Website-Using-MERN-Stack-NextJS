@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// src/models/Article.js
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 const mongoose = require('mongoose');
 
 const ArticleSchema = new mongoose.Schema({
@@ -14,15 +10,11 @@ const ArticleSchema = new mongoose.Schema({
     image: {
         type: String,
         default: 'images/article.png'
-    },
+    },      
     summary: {
         type: String,
         trim: true,
-<<<<<<< HEAD
         required: true  
-=======
-        required: true
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
     },
     content: {
         type: String,
@@ -30,11 +22,7 @@ const ArticleSchema = new mongoose.Schema({
     },
     topicId: {
         type: mongoose.Schema.Types.ObjectId,
-<<<<<<< HEAD
         ref: 'Topic',   
-=======
-        ref: 'Topic',
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
         required: true
     },
     authorId: { // Người tạo bài viết

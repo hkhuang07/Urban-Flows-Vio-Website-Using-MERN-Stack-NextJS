@@ -8,13 +8,8 @@ const AccountSchema = new mongoose.Schema({
         trim: true
     },
     avatar: {
-<<<<<<< HEAD
         type: String, 
         default: 'images/avatar.png' 
-=======
-        type: String, // URL ảnh đại diện
-        default: 'images/avatar.png' // URL ảnh mặc định
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
     },
     email: {
         type: String,

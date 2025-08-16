@@ -3,7 +3,8 @@ import Link from 'next/link';
 
 export default function HomePage() {
   return (
-    <div className="container mx-auto mt-4 px-4">
+    <div className="container bg-[#000005] mx-auto mt-4 px-4">
+      
       {/* 1. Banner Section */}
       <section className="mb-8">
         <h2 className="text-2xl  font-bold mb-4">Live Show Banner</h2>
@@ -52,11 +53,7 @@ export default function HomePage() {
             {/* Header Section */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold text-[#98F5FF] h-14 mb-2">Consumers</h3>
-<<<<<<< HEAD
               <p className="text-[#F0F8FF] text-sm">A variety of services for your daily needs.</p>
-=======
-              <p className="text-gray-400 text-sm">A variety of services for your daily needs.</p>
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
             </div>
             {/* Content Section */}
             <div className="flex-grow">

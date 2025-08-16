@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-// src/models/OrderItem.js
->>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 const mongoose = require('mongoose');
 
 const OrderItemSchema = new mongoose.Schema({
