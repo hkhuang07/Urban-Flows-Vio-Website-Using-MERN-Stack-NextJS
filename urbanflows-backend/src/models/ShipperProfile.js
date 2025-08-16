@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/models/ShipperProfile.js
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 const mongoose = require('mongoose');
 
 const ShipperProfileSchema = new mongoose.Schema({

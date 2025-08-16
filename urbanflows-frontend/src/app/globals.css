@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 :root {
+<<<<<<< HEAD
     /* Chế độ Sáng (mặc định) */
     --background: #ffffff;
     --foreground: #171717;
@@ -26,19 +27,45 @@ html.light {
 }
 
 /*@theme inline {
+=======
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+<<<<<<< HEAD
 }*/
+=======
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #F8F8FF;
+  }
+}
+
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
   /* align-items: center;
   justify-content: center;
   display: flex;*/
+=======
+  align-items: center;
+  justify-content: center;
+  display: flex;
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 }
 
 

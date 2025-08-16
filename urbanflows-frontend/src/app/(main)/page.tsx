@@ -52,7 +52,11 @@ export default function HomePage() {
             {/* Header Section */}
             <div className="mb-4">
               <h3 className="text-xl font-semibold text-[#98F5FF] h-14 mb-2">Consumers</h3>
+<<<<<<< HEAD
               <p className="text-[#F0F8FF] text-sm">A variety of services for your daily needs.</p>
+=======
+              <p className="text-gray-400 text-sm">A variety of services for your daily needs.</p>
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
             </div>
             {/* Content Section */}
             <div className="flex-grow">

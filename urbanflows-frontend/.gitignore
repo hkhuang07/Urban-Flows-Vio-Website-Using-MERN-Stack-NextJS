@@ -10,12 +10,15 @@
 !.yarn/releases
 !.yarn/versions
 
+<<<<<<< HEAD
 # Ignore the entire node_modules directory
 node_modules/
 
 # Specific file that was causing issues
 node_modules/@next/swc-win32-x64-msvc/next-swc.win32-x64-msvc.node
 
+=======
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 # testing
 /coverage
 

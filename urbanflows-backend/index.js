@@ -1,15 +1,20 @@
 const express = require('express');
 const mongoose = require('mongoose');
+<<<<<<< HEAD
 const cors = require('cors'); // xử lý kết nối frontend - backend
 const dotenv = require('dotenv');
 const multer = require('multer'); // xử lý tải file
 const path = require('path'); // Thêm path để làm việc với đường dẫn tệp tin
+=======
+const dotenv = require('dotenv');
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 
 // Tải biến môi trường từ file .env
 dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+<<<<<<< HEAD
 const MONGODB_URI = process.env.MONGODB_URI;
 
 // Middleware để xử lý JSON và form-urlencoded data
@@ -48,6 +53,13 @@ app.post('/api/upload', upload.single('file'), (req, res) => {
 });
 
 // Các route hiện có của bạn
+=======
+const MONGODB_URI = process.env.MONGODB_URI;-+
+
+// Middleware để xử lý JSON trong body của request
+app.use(express.json());
+
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 app.use('/api/accounts', require('./src/routes/accountRoutes'));
 app.use('/api/accounts', require('./src/routes/accountRoutes'));
 app.use('/api/categories', require('./src/routes/categoryRoutes'));
@@ -80,4 +92,8 @@ app.get('/', (req, res) => {
 // Khởi động server
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
+<<<<<<< HEAD
 });
+=======
+});     
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e

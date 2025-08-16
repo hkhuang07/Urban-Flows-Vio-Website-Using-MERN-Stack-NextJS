@@ -2,23 +2,35 @@ import './globals.css';
 import React from 'react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+<<<<<<< HEAD
 import { LanguageProvider } from "@/contexts/LanguageContext"; 
+=======
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Urban Flows',
+<<<<<<< HEAD
   description: 'A vibrant website for delivery, logistics, shopping, sales, and booking.',
+=======
+  description: 'A multi-function website.',
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
+<<<<<<< HEAD
    <html lang="vi">
       <body className={inter.className}>
         <LanguageProvider>
           {children}
         </LanguageProvider>
       </body>
+=======
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+>>>>>>> d693b521d5239c23a76850ff3661eacb995d131e
     </html>
   );
 }
