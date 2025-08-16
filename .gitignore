@@ -1,0 +1,24 @@
+# Dependencies
+urbanflows-backend/node_modules
+urbanflows-frontend/node_modules
+
+# Environment variables
+urbanflows-backend/.env
+
+# Next.js build output
+urbanflows-frontend/.next/
+urbanflows-frontend/out/
+
+# Other temporary files
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+
+# IDE files
+.idea/
+.vs/
+*.sublime-project
+*.sublime-workspace

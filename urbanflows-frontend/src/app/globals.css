@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+    /* Chế độ Sáng (mặc định) */
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* Chế độ Tối mặc định của trình duyệt */
+        --background: #0a0a0a;
+        --foreground: #F8F8FF;
+    }
+}
+
+/* Ghi đè màu nền khi người dùng nhấn nút chuyển đổi */
+html.dark {
+    --background: #0a0a0a;
+    --foreground: #F0F8FF;
+}
+
+html.light {
+    --background: #F0F8FF;
+    --foreground: #171717;
+}
+
+/*@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}*/
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  /* align-items: center;
+  justify-content: center;
+  display: flex;*/
+}
+
+
+
+/* Thêm hiệu ứng box-shadow tùy chỉnh cho thanh tìm kiếm
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ */
+.shadow-custom-blue {
+  box-shadow: 0 0 10px #3b82f6, 0 0 20px #3b82f6, 0 0 30px #3b82f6;
+}

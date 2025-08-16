@@ -1,0 +1,27 @@
+{
+  "name": "urbanflows-backend",
+  "version": "1.0.0",
+  "description": "Urban Flows vio website using MERN Stack and Next.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/hkhuang07/Urban-Flows-Vio-Website-Using-MERN-Stack-NextJS.git"
+  },
+  "author": "Huynh Quoc Huy",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "path": "^0.12.7"
+  }
+}
