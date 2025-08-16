@@ -3,18 +3,6 @@
 **Urban-Flows** is a comprehensive e-commerce and news platform built with the MERN stack and Next.js, designed to provide a seamless urban experience. From finding the latest news and trends to purchasing goods and booking rides, Urban-Flows brings all your urban needs into one integrated platform.
 
 ## Demo
-
-### Web Page View
-
-<p align="center">
-  <img src="demo/headernavbar.jpg" alt="Header/Navigation" width="700"/>
-  <img src="demo/homepage01.jpg" alt="Homepage 1" width="700"/>
-  <img src="demo/homepage02.jpg" alt="Homepage 2" width="700"/>
-  <img src="demo/footer.jpg" alt="Footer" width="700"/>
-  <br />
-  <em>Website Demo</em>
-</p>
-
 ### Authentication Pages
 
 <p align="center">
@@ -29,6 +17,18 @@
   <em>Sign In Form</em>
 </p>
 ---
+### Web Page View
+
+<p align="center">
+  <img src="demo/headernavbar.jpg" alt="Header/Navigation" width="700"/>
+  <img src="demo/homepage01.jpg" alt="Homepage 1" width="700"/>
+  <img src="demo/homepage02.jpg" alt="Homepage 2" width="700"/>
+  <img src="demo/footer.jpg" alt="Footer" width="700"/>
+  <br />
+  <em>Website Demo</em>
+</p>
+
+
 
 ### Categories Management
 
